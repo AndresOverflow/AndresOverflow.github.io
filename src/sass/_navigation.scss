@@ -1,0 +1,122 @@
+.navigation{
+    //background-color: blueviolet;
+    grid-column: 1 / - 1;
+    grid-row: 1/2;
+    display:grid;
+    grid-template-columns: 1fr repeat(4, minmax(7rem, max-content));
+    grid-gap: 2rem;
+    
+    &__item {
+        display:grid;
+        grid-template-rows: max-content max-content;
+        grid-row: 1/2;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+.Wrapper {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    display: grid;
+}
+
+.link-svgWithShadow {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    display:grid;
+}
+
+
+//backdropbackground blur: en el texto
+.linkedin{
+    grid-column: 2/3;
+}
+
+.github{
+    grid-column: 3/4;
+}
+
+.gmail{
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+.svg-gmail{
+    grid-row: 1/2;
+    grid-column: 1/-1;
+
+}
+
+.gmail:hover .shadow {
+
+    box-shadow: 0px 0px 100px 15px $color-khaki, 5px 5px 100px 15px $color-khaki, -5px -5px 100px 15px $color-khaki; 
+}
+
+
+.resume{
+    grid-row:1/2;
+    grid-column: 5/6;
+}
+.svg-resume{
+    grid-row:1/2;
+    grid-column: 1/-1;
+}
+
+.resume:hover .shadow {
+
+    box-shadow: 0px 0px 200px 15px $color-green, 5px 5px 100px 15px $color-green, -5px -5px 100px 15px $color-green; 
+}
+
+
+#linkedin-icon {
+    fill: $color-tiktok-blue;
+    box-shadow: 0px 0px 2px 4px $color-tiktok-blue;
+    
+}
+
+#github-icon {
+    fill: $color-tiktok-red;
+}
+
+#gmail-icon {
+    fill: $color-khaki;
+}
+
+#resume-icon {
+    fill: $color-green;
+}
+.svg-linkedin:hover{
+    border-radius: 30%;
+    width: 72px;
+    height: 72px;
+    box-shadow: 0px 0px 100px 15px $color-tiktok-blue;
+}
+.svg-github:hover{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    box-shadow: 0px 0px 100px 15px $color-tiktok-red;
+}
+.svg-gmail:hover{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    //box-shadow: 0px 0px 100px 15px $color-khaki;
+}
+.svg-resume:hover{
+    border-radius: 25%;
+    width: 72px;
+    height: 72px;
+    //box-shadow: 0px 0px 100px 15px $color-green;
+
+
+}
+.shadow {
+    width: 0%;
+    height: 0%;
+    grid-column: 1/-1;
+    grid-row: 1 / 2;
+    align-self: center;
+    justify-self: center;
+    
+}
