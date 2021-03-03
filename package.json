@@ -6,16 +6,16 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "1.1.5",
-    "predploy": "yard build",
-    "deploy": "gh-pages -d build"
+    "react-scripts": "1.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "compile:sass": "node-sass src/sass/index.scss src/index.css -w"
+    "compile:sass": "node-sass src/sass/index.scss src/index.css -w",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
