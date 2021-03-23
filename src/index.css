@@ -179,7 +179,9 @@ body {
   grid-template-rows: max-content;
   row-gap: 7rem;
   column-gap: 10rem;
-  margin: 5rem; }
+  margin: 5rem;
+  justify-content: center;
+  align-content: center; }
 
 .feature_card {
   display: grid;
