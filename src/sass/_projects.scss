@@ -13,7 +13,7 @@
     //grid-template-columns: 1fr 1fr;
     grid-template-columns: repeat(auto-fit, max-content);
     grid-auto-rows: minmax(min-content, max-content);
-    grid-gap: 4rem;
+    grid-gap: 8rem;
     margin: 5rem;
 }
 
@@ -64,8 +64,8 @@
 
 }
 .image {
-    width: 30rem;
-    height: 24rem;
+    width: 45rem;
+    height: 36rem;
 
 }
 
