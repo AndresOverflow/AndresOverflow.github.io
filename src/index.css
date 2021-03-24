@@ -573,7 +573,12 @@ body {
   grid-template-rows: min-content;
   grid-row-gap: 4rem;
   grid-column-gap: 2rem;
-  margin: 5rem; }
+  margin: 5rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center; }
 
 .contact_me_card__container {
   display: grid;
