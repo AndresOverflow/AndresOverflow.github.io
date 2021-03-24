@@ -218,9 +218,19 @@ body {
   grid-template-rows: min-content;
   grid-gap: 2rem;
   margin: 5rem; }
+  @media only screen and (max-width: 57.5em) {
+    .skill_cards {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+      align-content: center; } }
 
 .back-end {
   grid-column: 1/2; }
+  @media only screen and (max-width: 57.5em) {
+    .back-end {
+      grid-column: 1/-1; } }
 
 .back-end_content {
   font-family: "Dancing Script", cursive;
@@ -233,6 +243,9 @@ body {
 
 .front-end {
   grid-column: 2/3; }
+  @media only screen and (max-width: 57.5em) {
+    .front-end {
+      grid-column: 1/-1; } }
 
 .front-end_content {
   font-family: "Dancing Script", cursive;
@@ -627,7 +640,7 @@ body {
   grid-row: 1/2;
   margin: 0 auto;
   color: goldenrod;
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-align: center;
   text-shadow: goldenrod 1px 0 3px; }
 
@@ -683,7 +696,7 @@ body {
 
 .project-description {
   grid-row: 3/4;
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-align: center; }
 
 /*
