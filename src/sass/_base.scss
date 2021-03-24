@@ -20,6 +20,13 @@ $color-grey: #222222;
 $font-secundary: 'Dancing Script', cursive;
 $font-primary: Inter, cursive;
 
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px;
+$bp-large: 66em; // 1056px;
+$bp-medium : 50em; // 800px
+
+// min-content max-content for new rows??
+
 
 *,
 *::before,
@@ -37,6 +44,10 @@ html {
     //overflow: hidden;
     // como hacer que llegue hasta el final
     height: 100%;
+
+    @media only screen and (max-width: $bp-largest) {
+      font-size: 50%;
+    }
 }
 
 
