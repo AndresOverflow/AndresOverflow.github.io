@@ -9,7 +9,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  height: 100%; }
+  height: cover; }
   @media only screen and (max-width: 75em) {
     html {
       font-size: 50%; } }
@@ -177,7 +177,8 @@ body {
 .about_me {
   grid-column: 1/-1;
   grid-row: 5/6;
-  box-shadow: 0px 0px 10px 3px khaki; }
+  box-shadow: 0px 0px 10px 3px khaki;
+  background-color: rgba(240, 230, 140, 0.03); }
 
 .feature_cards {
   display: grid;
@@ -213,7 +214,8 @@ body {
 .skills {
   grid-column: 1/-1;
   grid-row: 3/ 4;
-  box-shadow: 0px 0px 10px 3px #08fdd8; }
+  box-shadow: 0px 0px 10px 3px #08fdd8;
+  background-color: rgba(8, 253, 216, 0.03); }
   @media only screen and (max-width: 25em) {
     .skills {
       font-size: 80%; } }
@@ -590,7 +592,8 @@ body {
 .contact_me {
   grid-column: 1 / -1;
   grid-row: 6/7;
-  box-shadow: 0px 0px 10px 3px palegreen; }
+  box-shadow: 0px 0px 10px 3px palegreen;
+  background-color: rgba(152, 251, 152, 0.03); }
 
 .contact_me_cards {
   display: grid;
@@ -627,6 +630,7 @@ body {
 
 .projects {
   box-shadow: 0px 0px 10px 3px #EE1D52;
+  background-color: rgba(238, 29, 82, 0.03);
   grid-column: 1/-1;
   grid-row: 4/5; }
 

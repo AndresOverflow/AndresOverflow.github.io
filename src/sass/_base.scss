@@ -47,7 +47,7 @@ html {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     //overflow: hidden;
     // como hacer que llegue hasta el final
-    height: 100%;
+    height: cover;
 
     @media only screen and (max-width: $bp-largest) {
       font-size: 50%;
