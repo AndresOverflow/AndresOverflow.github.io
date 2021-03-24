@@ -599,9 +599,9 @@ body {
   grid-row-gap: 4rem;
   grid-column-gap: 2rem;
   margin: 5rem;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  align-content: center;
+  align-content: start;
   justify-items: center;
   text-align: center; }
 
@@ -635,12 +635,16 @@ body {
   grid-template-columns: repeat(auto-fit, max-content);
   grid-auto-rows: minmax(min-content, max-content);
   grid-gap: 8rem;
-  margin: 5rem; }
+  margin: 5rem;
+  justify-content: center;
+  justify-items: center; }
 
 .project-item {
   display: grid;
   grid-template-rows: min-content min-content min-content;
-  grid-gap: 1.5rem; }
+  grid-gap: 1.5rem;
+  justify-content: center;
+  justify-items: center; }
 
 .project-title {
   grid-row: 1/2;
