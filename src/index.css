@@ -13,9 +13,6 @@ html {
   @media only screen and (max-width: 75em) {
     html {
       font-size: 50%; } }
-  @media only screen and (max-width: 28.5em) {
-    html {
-      font-size: 25%; } }
 
 body {
   font-family: Inter, cursive;
@@ -217,6 +214,9 @@ body {
   grid-column: 1/-1;
   grid-row: 3/ 4;
   box-shadow: 0px 0px 10px 3px #08fdd8; }
+  @media only screen and (max-width: 25em) {
+    .skills {
+      font-size: 80%; } }
 
 .skill_cards {
   display: grid;
@@ -226,7 +226,7 @@ body {
   margin: 5rem; }
   @media only screen and (max-width: 57.5em) {
     .skill_cards {
-      grid-template-columns: 1fr;
+      grid-template-columns: min-content;
       justify-content: center;
       justify-items: center;
       align-items: center;
@@ -676,6 +676,10 @@ body {
 .image {
   width: 45rem;
   height: 36rem; }
+  @media only screen and (max-width: 28.5em) {
+    .image {
+      width: 27rem;
+      height: 21rem; } }
 
 .project-techs {
   grid-row: 1/ -1;

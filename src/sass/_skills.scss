@@ -4,6 +4,9 @@
     grid-row: 3/ 4;
     box-shadow: 0px 0px 10px 3px $color-blue-light;
 
+    @media only screen and (max-width: $bp-super-smallest) {
+        font-size: 80%;
+    }
 
 
 }
@@ -15,7 +18,7 @@
     grid-gap: 2rem;
     margin: 5rem;
     @media only screen and (max-width: $bp-medium-large) {
-        grid-template-columns: 1fr;
+        grid-template-columns: min-content;
         justify-content: center;
         justify-items: center;
         align-items: center;
