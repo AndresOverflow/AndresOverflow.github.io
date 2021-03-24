@@ -13,6 +13,9 @@ html {
   @media only screen and (max-width: 75em) {
     html {
       font-size: 50%; } }
+  @media only screen and (max-width: 28.5em) {
+    html {
+      font-size: 25%; } }
 
 body {
   font-family: Inter, cursive;
@@ -30,6 +33,9 @@ body {
   box-shadow: 0 10px 10px #FFF;
   padding: 4rem;
   font-size: 3rem; }
+  @media only screen and (max-width: 28.5em) {
+    .container {
+      margin: 0 0; } }
 
 /*
 #stars{
